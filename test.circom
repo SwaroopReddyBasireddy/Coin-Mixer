@@ -40,7 +40,7 @@ template testWithdrwal(levels) {
 
 }
 
-component main {public [nullifiers]} = generateTree(2);
+component main {public [nullifiers]} = testWithdrwal(2);
 
 /* INPUT = {
     "nullifiers": [1,2,3,4],
