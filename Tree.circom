@@ -1,0 +1,9 @@
+pragma circom 2.0.0;
+
+include "MerkleTree.circom";
+
+component main {public [leaves]} =  MerkleTree(2);
+
+// {"leaves": [1,2,3,4]}
+
+// {"leaf": 2, "root":1465094136444134974751200164532104467635610174345942702746480815879700667936, "pathElements": [3,10597867217434469074889918351575647658735372368059655943578295908845338723134], "pathIndices": [0,1]}
